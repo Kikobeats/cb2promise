@@ -1,0 +1,48 @@
+{
+  "name": "cb2promise",
+  "description": "Converts whatever standard NodeJS callback function into ES6 standard promise.",
+  "homepage": "https://github.com/Kikobeats/cb2promise",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": "Kikobeats/cb2promise",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/cb2promise/issues"
+  },
+  "keywords": [
+    "ES6",
+    "standard",
+    "callback",
+    "cb",
+    "promise",
+    "converter"
+  ],
+  "dependencies": {
+    "pinkie-promise": "~1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "coffee-script": "*",
+    "coffeeify": "*",
+    "gulp": "*",
+    "gulp-header": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "mocha": "*",
+    "should": "*",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.4.0"
+  },
+  "scripts": {
+    "test": "sh test/test.sh"
+  },
+  "license": "MIT"
+}
