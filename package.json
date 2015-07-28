@@ -22,11 +22,11 @@
     "converter"
   ],
   "dependencies": {
+    "coffee-script": "*",
     "pinkie-promise": "~1.0.0"
   },
   "devDependencies": {
     "browserify": "*",
-    "coffee-script": "*",
     "coffeeify": "*",
     "gulp": "*",
     "gulp-header": "*",
