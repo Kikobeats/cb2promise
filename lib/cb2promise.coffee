@@ -1,6 +1,6 @@
 'use strict'
 
-PinkiePromise = require 'pinkie-promise'
+Promise = require 'pinkie-promise'
 
 module.exports =  ->
 
@@ -17,7 +17,7 @@ module.exports =  ->
 
   args.push callbackHandle
 
-  return new PinkiePromise (resolvePromise, rejectPromise) ->
+  new Promise (resolvePromise, rejectPromise) ->
     resolve = resolvePromise
     reject = rejectPromise
     fn.apply null, args
