@@ -2,7 +2,7 @@
 
 Promise = require 'pinkie-promise'
 
-module.exports =  ->
+module.exports = ->
 
   args = Array.prototype.slice.call arguments
   fn = args.shift()
