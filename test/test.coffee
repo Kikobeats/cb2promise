@@ -4,8 +4,7 @@ sampleFunction = (done) -> done null, 'hello world'
 
 describe 'cb2promise ::', ->
 
-  it 'convert cb interface into promise', (done) ->
+  it 'convert cb interface into promise', () ->
     promise = cb2promise(sampleFunction)
     promise.then (message) ->
       message.should.be.equal 'hello world'
-      done()
