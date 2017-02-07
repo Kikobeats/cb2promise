@@ -1,3 +1,12 @@
+<a name="1.0.3"></a>
+## 1.0.3 (2017-02-07)
+
+* fix test ([75e43f6](https://github.com/kikobeats/cb2promise/commit/75e43f6))
+* Fix typo ([be3097b](https://github.com/kikobeats/cb2promise/commit/be3097b))
+* use absolute path for require ([2450d16](https://github.com/kikobeats/cb2promise/commit/2450d16))
+
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2015-10-06)
 
