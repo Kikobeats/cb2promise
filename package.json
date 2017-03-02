@@ -3,7 +3,7 @@
   "description": "Converts whatever standard NodeJS callback function into ES6 standard promise.",
   "homepage": "https://github.com/Kikobeats/cb2promise",
   "version": "1.0.4",
-  "main": "./dist/cb2promise.js",
+  "main": "index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
@@ -16,6 +16,10 @@
   "bugs": {
     "url": "https://github.com/Kikobeats/cb2promise/issues"
   },
+  "files": [
+    "index.js",
+    "dist"
+  ],
   "keywords": [
     "ES6",
     "callback",
@@ -25,20 +29,21 @@
     "standard"
   ],
   "dependencies": {
-    "coffee-script": "*",
-    "pinkie-promise": "*"
+    "pinkie-promise": "~2.0.1",
+    "sliced": "~1.0.1"
   },
   "devDependencies": {
-    "browserify": "*",
-    "coffeeify": "*",
-    "gulp": "*",
-    "gulp-header": "*",
-    "gulp-uglify": "*",
-    "gulp-util": "*",
-    "mocha": "*",
-    "should": "*",
-    "vinyl-buffer": "*",
-    "vinyl-source-stream": "*"
+    "browserify": "latest",
+    "coffee-script": "latest",
+    "gulp": "latest",
+    "gulp-header": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "mocha": "latest",
+    "should": "latest",
+    "standard": "latest",
+    "vinyl-buffer": "latest",
+    "vinyl-source-stream": "latest"
   },
   "engines": {
     "node": ">= 0.10.0",
