@@ -1,6 +1,5 @@
 files: [
-  'package.json',
-  'bower.json'
+  'package.json'
 ]
 
 plugins:
@@ -10,10 +9,6 @@ plugins:
     'Linting config files':
       plugin: 'bumped-finepack'
 
-    'Compile browser version':
-      plugin: 'bumped-terminal'
-      command: 'gulp'
-
   postrelease:
 
     'Generating CHANGELOG file':
@@ -21,7 +16,7 @@ plugins:
 
     'Committing new version':
       plugin: 'bumped-terminal'
-      command: 'git add dist/cb2promise.js CHANGELOG.md package.json bower.json && git commit -m "Release $newVersion"'
+      command: 'git add CHANGELOG.md package.json && git commit -m "Release $newVersion"'
 
     'Detecting problems before publish':
       plugin: 'bumped-terminal'
