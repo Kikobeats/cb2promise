@@ -29,7 +29,6 @@
     "sliced": "~1.0.1"
   },
   "devDependencies": {
-    "browserify": "latest",
     "coffee-script": "latest",
     "mocha": "latest",
     "should": "latest",
