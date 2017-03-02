@@ -1,3 +1,14 @@
+<a name="1.0.5"></a>
+## 1.0.5 (2017-03-02)
+
+* Refactor ([009123c](https://github.com/kikobeats/cb2promise/commit/009123c))
+* Remove browser build ([d4c19c7](https://github.com/kikobeats/cb2promise/commit/d4c19c7))
+* Update bumped ([2cb5c94](https://github.com/kikobeats/cb2promise/commit/2cb5c94))
+* Update node version ([589ae5a](https://github.com/kikobeats/cb2promise/commit/589ae5a))
+* Use const when is possible ([9319164](https://github.com/kikobeats/cb2promise/commit/9319164))
+
+
+
 <a name="1.0.4"></a>
 ## 1.0.4 (2017-03-02)
 
