@@ -1,3 +1,12 @@
+<a name="1.0.4"></a>
+## 1.0.4 (2017-03-02)
+
+* Fix test ([6756621](https://github.com/kikobeats/cb2promise/commit/6756621))
+* Point to JS build ([5931748](https://github.com/kikobeats/cb2promise/commit/5931748)), closes [#4](https://github.com/kikobeats/cb2promise/issues/4)
+* Update bumped ([e70ea67](https://github.com/kikobeats/cb2promise/commit/e70ea67))
+
+
+
 <a name="1.0.3"></a>
 ## 1.0.3 (2017-02-07)
 

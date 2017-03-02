@@ -2,7 +2,7 @@
   "name": "cb2promise",
   "description": "Converts whatever standard NodeJS callback function into ES6 standard promise.",
   "homepage": "https://github.com/Kikobeats/cb2promise",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/cb2promise.js",
   "authors": [
     {
@@ -11,17 +11,20 @@
       "homepage": "https://github.com/Kikobeats"
     }
   ],
-  "repository": "Kikobeats/cb2promise",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/cb2promise.git"
+  },
   "bugs": {
     "url": "https://github.com/Kikobeats/cb2promise/issues"
   },
   "keywords": [
     "ES6",
-    "standard",
     "callback",
     "cb",
+    "converter",
     "promise",
-    "converter"
+    "standard"
   ],
   "ignore": [
     "**/.*",
