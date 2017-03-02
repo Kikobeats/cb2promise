@@ -1,4 +1,4 @@
-cb2promise = require '..'
+cb2promise = require '../index.js'
 should     = require 'should'
 sampleFunction = (done) -> done null, 'hello world'
 
