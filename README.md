@@ -14,18 +14,6 @@
 npm install cb2promise --save
 ```
 
-If you want to use in the browser (powered by [Browserify](http://browserify.org/)):
-
-```bash
-bower install cb2promise --save
-```
-
-and later link in your HTML:
-
-```html
-<script src="bower_components/cb2promise/dist/cb2promise.js"></script>
-```
-
 ## Usage
 
 ```js
