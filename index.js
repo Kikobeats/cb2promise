@@ -1,16 +1,16 @@
 'use strict'
 
-var Promise = require('pinkie-promise')
-var sliced = require('sliced')
+const Promise = require('pinkie-promise')
+const sliced = require('sliced')
 
 function cb2promise () {
-  var args = sliced(arguments)
-  var fn = args.shift()
-  var resolve
-  var reject
+  let args = sliced(arguments)
+  const fn = args.shift()
+  let resolve
+  let reject
 
   function callbackHandle () {
-    var err
+    let err
     args = sliced(arguments)
     err = args.shift()
     return (!err) ? resolve.apply(null, args) : reject(err)
