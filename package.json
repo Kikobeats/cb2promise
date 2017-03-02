@@ -3,7 +3,7 @@
   "description": "Converts whatever standard NodeJS callback function into ES6 standard promise.",
   "homepage": "https://github.com/Kikobeats/cb2promise",
   "version": "1.0.3",
-  "main": "./index.js",
+  "main": "./dist/cb2promise.js",
   "author": {
     "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
