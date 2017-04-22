@@ -1,5 +1,7 @@
 # cb2promise
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/cb2promise.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/cb2promise.svg?style=flat-square)
 [![Dependency status](http://img.shields.io/david/Kikobeats/cb2promise.svg?style=flat-square)](https://david-dm.org/Kikobeats/cb2promise)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/cb2promise.svg?style=flat-square)](https://david-dm.org/Kikobeats/cb2promise#info=devDependencies)
