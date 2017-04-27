@@ -1,3 +1,12 @@
+<a name="1.0.6"></a>
+## 1.0.6 (2017-04-27)
+
+* Remove promise dependency ([f413ae3](https://github.com/kikobeats/cb2promise/commit/f413ae3))
+* Remove unnecessary devDependency ([266620b](https://github.com/kikobeats/cb2promise/commit/266620b))
+* Update ([56610b8](https://github.com/kikobeats/cb2promise/commit/56610b8))
+
+
+
 <a name="1.0.5"></a>
 ## 1.0.5 (2017-03-02)
 
