@@ -25,7 +25,6 @@
     "standard"
   ],
   "dependencies": {
-    "pinkie-promise": "~2.0.1",
     "sliced": "~1.0.1"
   },
   "devDependencies": {

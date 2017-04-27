@@ -1,7 +1,5 @@
 'use strict'
 
-Promise = require 'pinkie-promise'
-
 module.exports = ->
 
   args = Array.prototype.slice.call arguments
