@@ -1,6 +1,5 @@
 'use strict'
 
-const Promise = require('pinkie-promise')
 const sliced = require('sliced')
 
 function cb2promise () {
@@ -13,7 +12,7 @@ function cb2promise () {
     let err
     args = sliced(arguments)
     err = args.shift()
-    return (!err) ? resolve.apply(null, args) : reject(err)
+    return !err ? resolve.apply(null, args) : reject(err)
   };
 
   function promiseFactory (resolvePromise, rejectPromise) {
