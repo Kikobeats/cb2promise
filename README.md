@@ -17,15 +17,15 @@ npm install cb2promise --save
 ## Usage
 
 ```js
-var cb2promise = require('cb2promise');
+var cb2promise = require('cb2promise')
 
-var sampleFunction = function(done) {
-  return done(null, 'hello world');
-};
+var sampleFunction = function (done) {
+  return done(null, 'hello world')
+}
 
 var promise = cb2promise(sampleFunction)
 
-promise().then(console.log);
+promise().then(console.log)
 // => hello world
 
 ```

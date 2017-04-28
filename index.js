@@ -1,29 +1,34 @@
 'use strict'
 
+// TODO: Use mimicFn for inheritance fn name.
+// TODO: Use sliced for copy arguments
+
 const sliced = require('sliced')
 
-function cb2promise () {
-  let args = sliced(arguments)
-  const fn = args.shift()
-  let resolve
-  let reject
+module.exports = function (fn) {
+  return (function () {
+    var self = this
+    var len = arguments.length
 
-  function callbackHandle () {
-    let err
-    args = sliced(arguments)
-    err = args.shift()
-    return !err ? resolve.apply(null, args) : reject(err)
-  };
+    var lastType = typeof arguments[len - 1]
 
-  function promiseFactory (resolvePromise, rejectPromise) {
-    resolve = resolvePromise
-    reject = rejectPromise
-    return fn.apply(null, args)
+    if (lastType === 'function') {
+      return fn.apply(self, arguments)
+    }
+
+    var args = sliced(arguments)
+
+    return new Promise(function (resolve, reject) {
+      args[len] = createCallback(resolve, reject)
+      fn.apply(self, args)
+    })
+  }())
+}
+
+function createCallback (resolve, reject) {
+  return function (err, value) {
+    if (err) return reject(err)
+    var args = sliced(arguments, 1, arguments.length)
+    return resolve.apply(null, args)
   }
-
-  args.push(callbackHandle)
-
-  return new Promise(promiseFactory)
-};
-
-module.exports = cb2promise
+}

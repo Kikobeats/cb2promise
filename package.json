@@ -28,10 +28,11 @@
     "sliced": "~1.0.1"
   },
   "devDependencies": {
-    "coffee-script": "latest",
+    "coveralls": "latest",
     "mocha": "latest",
     "should": "latest",
-    "standard": "latest"
+    "standard": "latest",
+    "nyc": "latest"
   },
   "engines": {
     "node": ">= 4"
@@ -41,7 +42,16 @@
     "index.js"
   ],
   "scripts": {
-    "test": "sh test/test.sh"
+    "lint": "standard-markdown && standard",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "pretest": "npm run lint",
+    "test": "nyc mocha"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
 }
