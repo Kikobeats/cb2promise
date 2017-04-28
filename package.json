@@ -31,20 +31,20 @@
   "devDependencies": {
     "coveralls": "latest",
     "mocha": "latest",
+    "nyc": "latest",
     "should": "latest",
     "standard": "latest",
-    "nyc": "latest"
+    "standard-markdown": "latest"
   },
   "engines": {
     "node": ">= 4"
   },
   "files": [
-    "dist",
     "index.js"
   ],
   "scripts": {
-    "lint": "standard-markdown && standard",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard-markdown && standard",
     "pretest": "npm run lint",
     "test": "nyc mocha"
   },
