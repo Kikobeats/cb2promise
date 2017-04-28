@@ -29,12 +29,17 @@
     "sliced": "~1.0.1"
   },
   "devDependencies": {
+    "bluebird": "latest",
     "coveralls": "latest",
+    "es6-promisify": "latest",
     "mocha": "latest",
+    "nanobench": "latest",
     "nyc": "latest",
+    "pify": "latest",
     "should": "latest",
     "standard": "latest",
-    "standard-markdown": "latest"
+    "standard-markdown": "latest",
+    "thenify": "latest"
   },
   "engines": {
     "node": ">= 4"
