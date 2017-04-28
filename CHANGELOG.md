@@ -1,3 +1,10 @@
+<a name="1.0.7"></a>
+## 1.0.7 (2017-04-28)
+
+* Remove coffee file ([2ba3c12](https://github.com/kikobeats/cb2promise/commit/2ba3c12))
+
+
+
 <a name="1.0.6"></a>
 ## 1.0.6 (2017-04-27)
 
