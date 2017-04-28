@@ -38,7 +38,7 @@
     "pify": "latest",
     "should": "latest",
     "standard": "latest",
-    "standard-markdown": "latest",
+    "standard-markdown": "latest"
   },
   "engines": {
     "node": ">= 4"
@@ -49,9 +49,9 @@
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "lint": "standard-markdown && standard",
+    "optimization-test": "node --trace_opt --trace_deopt --allow-natives-syntax optimization-test.js",
     "pretest": "npm run lint",
-    "test": "nyc mocha && npm run optimization-test",
-    "optimization-test": "node --trace_opt --trace_deopt --allow-natives-syntax optimization-test.js"
+    "test": "nyc mocha && npm run optimization-test"
   },
   "license": "MIT",
   "standard": {
