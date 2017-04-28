@@ -1,3 +1,18 @@
+<a name="1.1.0"></a>
+# 1.1.0 (2017-04-28)
+
+* Add benchmark ([3a2e79c](https://github.com/kikobeats/cb2promise/commit/3a2e79c))
+* Add legacy tests ([33e3c6d](https://github.com/kikobeats/cb2promise/commit/33e3c6d))
+* Add missing dependency ([e3adc9c](https://github.com/kikobeats/cb2promise/commit/e3adc9c))
+* Add optimization test ([316397f](https://github.com/kikobeats/cb2promise/commit/316397f))
+* Avoid lint optimization test ([f778e53](https://github.com/kikobeats/cb2promise/commit/f778e53))
+* Better implementation ([27353bf](https://github.com/kikobeats/cb2promise/commit/27353bf))
+* Fix JSON ([6fc6f5a](https://github.com/kikobeats/cb2promise/commit/6fc6f5a))
+* Update docs ([5bb107f](https://github.com/kikobeats/cb2promise/commit/5bb107f))
+* Update travis builds ([645272a](https://github.com/kikobeats/cb2promise/commit/645272a))
+
+
+
 <a name="1.0.7"></a>
 ## 1.0.7 (2017-04-28)
 
