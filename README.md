@@ -6,7 +6,9 @@
 [![NPM Status](http://img.shields.io/npm/dm/cb2promise.svg?style=flat-square)](https://www.npmjs.org/package/cb2promise)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
-> Converts whatever standard NodeJS callback function into ES6 standard promise.
+> It converts from standard NodeJS callback into a ES2015 Promise.
+
+I use this library across my project for make easy provide API's that works with callback and promise style.
 
 ## Install
 
@@ -14,20 +16,44 @@
 npm install cb2promise --save
 ```
 
+## Bencharmk
+
+```bash
+$ node benchmark.js
+
+# cb2promise
+# 1,2,3,4,5,6,7,8,8,9,10
+ok ~2.65 ms (0 s + 2649092 ns)
+
+# pify
+# 1
+ok ~912 μs (0 s + 911730 ns)
+
+# es6-promisify
+# 1
+ok ~967 μs (0 s + 966663 ns)
+
+# bluebird
+# 1
+ok ~3.41 ms (0 s + 3412077 ns)
+
+all benchmarks completed
+ok ~7.94 ms (0 s + 7939562 ns)
+```
+
 ## Usage
 
 ```js
-var cb2promise = require('cb2promise')
+const cb2promise = require('cb2promise')
 
-var sampleFunction = function (done) {
-  return done(null, 'hello world')
+const callbackFn = function (message, done) {
+  return done(null, message)
 }
 
-var promise = cb2promise(sampleFunction)
+const promise = cb2promise(callbackFn, 'hello world')
 
 promise().then(console.log)
 // => hello world
-
 ```
 
 ## License
