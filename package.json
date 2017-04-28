@@ -39,7 +39,6 @@
     "should": "latest",
     "standard": "latest",
     "standard-markdown": "latest",
-    "thenify": "latest"
   },
   "engines": {
     "node": ">= 4"
@@ -51,7 +50,8 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "lint": "standard-markdown && standard",
     "pretest": "npm run lint",
-    "test": "nyc mocha"
+    "test": "nyc mocha && npm run optimization-test",
+    "optimization-test": "node --trace_opt --trace_deopt --allow-natives-syntax optimization-test.js"
   },
   "license": "MIT",
   "standard": {

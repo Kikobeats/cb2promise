@@ -1,7 +1,8 @@
 'use strict'
 
-const promisify = require('es6-promisify')
 const bench = require('nanobench')
+
+const promisify = require('es6-promisify')
 const cb2promise = require('./')
 const pify = require('pify')
 const bluebird = require('bluebird')

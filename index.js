@@ -3,7 +3,7 @@
 const mimicFn = require('mimic-fn')
 const sliced = require('sliced')
 
-module.exports = function (fn) {
+function cb2promise (fn) {
   const len = arguments.length
   const args = sliced(arguments, 1, len)
 
@@ -23,3 +23,5 @@ function createCallback (resolve, reject) {
     return resolve.apply(null, args.length === 1 ? args : [args])
   }
 }
+
+module.exports = cb2promise
