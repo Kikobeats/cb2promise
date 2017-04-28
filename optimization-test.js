@@ -12,7 +12,7 @@ function exampleFunction() {
 }
 
 function printStatus(fn) {
-  var status = % GetOptimizationStatus(fn)
+  var status = %GetOptimizationStatus(fn)
   switch (status) {
     case 1:
       console.log("Function is optimized");

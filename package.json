@@ -48,7 +48,7 @@
   ],
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "lint": "standard-markdown && standard",
+    "lint": "standard-markdown && standard index.js benchmark.js test",
     "optimization-test": "node --trace_opt --trace_deopt --allow-natives-syntax optimization-test.js",
     "pretest": "npm run lint",
     "test": "nyc mocha && npm run optimization-test"
