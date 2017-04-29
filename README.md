@@ -1,10 +1,12 @@
 # cb2promise
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/cb2promise.svg?style=flat-square)
-[![Dependency status](http://img.shields.io/david/Kikobeats/cb2promise.svg?style=flat-square)](https://david-dm.org/Kikobeats/cb2promise)
-[![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/cb2promise.svg?style=flat-square)](https://david-dm.org/Kikobeats/cb2promise#info=devDependencies)
-[![NPM Status](http://img.shields.io/npm/dm/cb2promise.svg?style=flat-square)](https://www.npmjs.org/package/cb2promise)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
+[![Build Status](https://img.shields.io/travis/Kikobeats/cb2promise/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/cb2promise)
+[![Coverage Status](https://img.shields.io/coveralls/Kikobeats/cb2promise.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/cb2promise)
+[![Dependency status](https://img.shields.io/david/Kikobeats/cb2promise.svg?style=flat-square)](https://david-dm.org/Kikobeats/cb2promise)
+[![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/cb2promise.svg?style=flat-square)](https://david-dm.org/Kikobeats/cb2promise#info=devDependencies)
+[![NPM Status](https://img.shields.io/npm/dm/cb2promise.svg?style=flat-square)](https://www.npmjs.org/package/cb2promise)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/Kikobeats)
 
 > It converts from standard NodeJS callback into a ES2015 Promise.
 
