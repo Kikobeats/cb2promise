@@ -1,5 +1,7 @@
 # cb2promise
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/cb2promise.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/cb2promise.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/cb2promise/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/cb2promise)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/cb2promise.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/cb2promise)
