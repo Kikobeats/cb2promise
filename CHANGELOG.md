@@ -1,3 +1,21 @@
+<a name="1.1.1"></a>
+## 1.1.1 (2019-03-08)
+
+* fix(package): update mimic-fn to version 1.2.0 ([54fdac8](https://github.com/kikobeats/cb2promise/commit/54fdac8))
+* fix(package): update mimic-fn to version 2.0.0 ([2aa9ba5](https://github.com/kikobeats/cb2promise/commit/2aa9ba5))
+* Badges ([b11c8cf](https://github.com/kikobeats/cb2promise/commit/b11c8cf))
+* Update compositor.json ([02ced01](https://github.com/kikobeats/cb2promise/commit/02ced01))
+* Update compositor.json ([6cdb6b9](https://github.com/kikobeats/cb2promise/commit/6cdb6b9))
+* Update compositor.json ([7643e3c](https://github.com/kikobeats/cb2promise/commit/7643e3c))
+* Update compositor.json ([5f85168](https://github.com/kikobeats/cb2promise/commit/5f85168))
+* Update compositor.json via compositor.io ([535e88b](https://github.com/kikobeats/cb2promise/commit/535e88b))
+* Update README.md ([6fa11f3](https://github.com/kikobeats/cb2promise/commit/6fa11f3))
+* Update README.md ([50dcb17](https://github.com/kikobeats/cb2promise/commit/50dcb17))
+* docs(readme): add Greenkeeper badge ([8c8c030](https://github.com/kikobeats/cb2promise/commit/8c8c030))
+* docs(readme): add Greenkeeper badge ([0a8a639](https://github.com/kikobeats/cb2promise/commit/0a8a639))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2017-04-28)
 
